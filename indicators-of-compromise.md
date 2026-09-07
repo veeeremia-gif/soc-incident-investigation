@@ -1,15 +1,27 @@
 # Indicators of Compromise (IoCs)
 
-## Potential IoCs
+## Identified Indicators of Compromise
 
-- Suspicious phishing email
-- Malicious URL
-- Fraudulent login page
-- Suspicious IP address
-- Multiple failed login attempts
-- Successful login from an unusual location
-- Compromised user credentials
+### Suspicious IP Address
 
-## Investigation Status
+185.220.101.45
 
-The IoCs listed above are based on the simulated incident scenario and require further investigation and validation.
+### Authentication Activity
+
+- 4 failed login attempts from the suspicious IP address
+- 1 successful login from the same IP address
+- Successful login occurred at 09:15:47
+
+### Account Activity
+
+- MFA was not enabled
+- Unusual login location detected
+
+### File Activity
+
+- Access to customer_database.xlsx
+- Download of customer_database.xlsx
+
+### Security Alert
+
+Security monitoring generated an alert at 09:30:05 for suspicious activity involving the user account.
