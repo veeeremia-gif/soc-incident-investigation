@@ -1,22 +1,15 @@
 # Recommendations
 
-## Immediate Actions
+To reduce the likelihood and potential impact of similar security incidents in the future, the organization should implement the following measures:
 
-1. Disable the compromised user account.
-2. Reset the user's password.
-3. Revoke active sessions.
-4. Enable or verify Multi-Factor Authentication (MFA).
-5. Investigate the suspicious IP address.
-6. Search security logs for additional suspicious activity.
+1. **Enable Multi-Factor Authentication (MFA)** for all users accessing the organization's systems.
+2. **Implement regular phishing awareness training** to help employees identify and report suspicious emails and malicious links.
+3. **Strengthen email security controls** to detect and block phishing emails, malicious links, and suspicious attachments.
+4. **Implement the principle of least privilege** to ensure that users only have access to the data and systems required for their role.
+5. **Improve security monitoring and alerting** to detect suspicious authentication and file-access activity more quickly.
+6. **Strengthen password policies** and encourage the use of unique, strong passwords.
+7. **Regularly review authentication and access logs** to identify unusual activity and potential security incidents at an early stage.
 
-## Preventive Measures
-
-- Implement phishing awareness training.
-- Enforce Multi-Factor Authentication.
-- Improve email security controls.
-- Monitor authentication activity.
-- Apply the principle of least privilege.
-- Establish an incident response procedure.
 
 ## Conclusion
 
