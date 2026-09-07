@@ -1,0 +1,12 @@
+2026-09-07 08:42:11 INFO LOGIN_SUCCESS user=john.smith source_ip=192.168.1.25
+2026-09-07 09:02:17 WARN LOGIN_FAILED user=john.smith source_ip=185.220.101.45
+2026-09-07 09:02:24 WARN LOGIN_FAILED user=john.smith source_ip=185.220.101.45
+2026-09-07 09:02:31 WARN LOGIN_FAILED user=john.smith source_ip=185.220.101.45
+2026-09-07 09:03:02 WARN LOGIN_FAILED user=john.smith source_ip=185.220.101.45
+2026-09-07 09:15:47 INFO LOGIN_SUCCESS user=john.smith source_ip=185.220.101.45
+2026-09-07 09:16:03 INFO MFA_NOT_ENABLED user=john.smith source_ip=185.220.101.45
+2026-09-07 09:17:21 WARN UNUSUAL_LOCATION user=john.smith location=Unknown
+2026-09-07 09:18:44 WARN FILE_ACCESS user=john.smith file=customer_database.xlsx
+2026-09-07 09:21:12 WARN FILE_DOWNLOAD user=john.smith file=customer_database.xlsx
+2026-09-07 09:30:05 ALERT SECURITY_MONITOR suspicious_activity user=john.smith
+2026-09-07 09:45:00 INFO ACCOUNT_DISABLED user=john.smith
