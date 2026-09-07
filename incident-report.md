@@ -29,7 +29,20 @@ The login attempts indicate that the organization's system may have been exposed
 
 ## 6. Impact Assessment
 
+The security incident may have resulted in the compromise of the user's account. A successful login was detected from the suspicious IP address 185.220.101.45, and Multi-Factor Authentication (MFA) was not enabled on the account. Following the successful login, the potentially unauthorized user accessed and downloaded the customer_database.xlsx file. This indicates a potential exposure of sensitive customer information and requires further investigation to determine whether any data was exfiltrated or misused.
+
+
 ## 7. Containment Actions
+
+In addition to disabling the affected account, the security team should take the following containment actions:
+
+1. Reset the user's password to prevent further unauthorized access.
+2. Terminate all active sessions associated with the compromised account.
+3. Block or restrict the suspicious IP address 185.220.101.45 after validating the associated activity.
+4. Enable Multi-Factor Authentication (MFA) for the affected account and require MFA for all users where possible.
+5. Review authentication and file-access logs for additional suspicious activity.
+6. Investigate whether customer_database.xlsx was transferred outside the organization.
+
 
 ## 8. Recommendations
 
