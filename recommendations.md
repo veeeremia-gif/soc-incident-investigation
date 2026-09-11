@@ -9,10 +9,3 @@ To reduce the likelihood and potential impact of similar security incidents in t
 5. **Improve security monitoring and alerting** to detect suspicious authentication and file-access activity more quickly.
 6. **Strengthen password policies** and encourage the use of unique, strong passwords.
 7. **Regularly review authentication and access logs** to identify unusual activity and potential security incidents at an early stage.
-
-
-## Conclusion
-
-The simulated incident demonstrates how a phishing attack can lead to credential compromise.
-
-A combination of technical controls, monitoring, user awareness, and incident response procedures can reduce the likelihood and impact of similar incidents.
