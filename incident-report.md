@@ -2,7 +2,7 @@
 
 ## 1. Executive Summary
 
-The organization's login system experienced a security incident involving a suspected account compromise. An attacker attempted to access the system using the credentials of an employee named John Smith. After several failed login attempts, a successful login was detected from a suspicious IP address. The unusual authentication activity alerted the security team and triggered an investigation into the potentially compromised account.
+The organization's login system experienced a security incident involving a suspected account compromise. A suspected unauthorized user attempted to access the system using the credentials of an employee named John Smith. After several failed login attempts, a successful login was detected from a suspicious IP address. The unusual authentication activity alerted the security team and triggered an investigation into the potentially compromised account.
 
 
 ## 2. Incident Details
