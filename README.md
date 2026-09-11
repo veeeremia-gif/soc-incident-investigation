@@ -49,6 +49,6 @@ The investigation will examine:
 
 **Incident Type:** Phishing / Credential Compromise
 
-**Severity:** To be determined during the investigation
+**Severity:** High
 
 **Status:** Investigation in progress
